@@ -1,0 +1,5 @@
+# Include your custom HAL commands here
+# This file will not be overwritten when you run PNCconf again
+
+sets out.nc-ready1  True
+sets out.nc-ready2  True

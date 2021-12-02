@@ -1,0 +1,17 @@
+#**************************
+#Panel buttons
+#**************************
+
+#Power & Estop
+net in.estop-signal1   => classicladder.0.in-05
+net in.estop-signal2   => classicladder.0.in-06  
+net in.powered-on      => classicladder.0.in-07  
+net out.estop-free        classicladder.0.out-03   =>  iocontrol.0.emc-enable-in
+net out.machine-on        classicladder.0.out-04   =>  halui.machine.on
+net out.machine-off       classicladder.0.out-05   =>  halui.machine.off
+
+#CycleStart
+
+#CycleStop
+
+#Joystick actions
